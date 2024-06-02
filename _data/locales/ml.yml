@@ -1,0 +1,31 @@
+en:
+    locale_name: Malayalam
+    nav:
+        about: വിശദാംശങ്ങൾ
+        contribute: സംഭാവന ചെയ്യുക
+    index:
+        lead: ഓപ്പൺ സോഴ്‌സ് സോഫ്‌റ്റ്‌വെയറുകൾ നിങ്ങളെപ്പോലുള്ളവർ നിർമ്മിച്ചതാണ്. നിങ്ങളുടെ പ്രോജക്റ്റ് എങ്ങനെ സമാരംഭിക്കാമെന്നും വികസിപ്പിക്കാമെന്നും അറിയുക.
+        opensourcefriday: ഇത് വെള്ളിയാഴ്ചയാണ്! നിങ്ങൾ ഉപയോഗിക്കുന്നതും ഇഷ്‌ടപ്പെടുന്നതുമായ സോഫ്‌റ്റ്‌വെയറിലേക്ക് സംഭാവന ചെയ്യാൻ കുറച്ച് മണിക്കൂറുകൾ നിക്ഷേപിക്കുക
+    article:
+        table_of_contents: ഉള്ളടക്ക പട്ടിക
+        back_to_all_guides: എല്ലാ ഗൈഡുകളിലേക്കും മടങ്ങുക
+        related_guides: ബന്ധപ്പെട്ട ഗൈഡുകൾ
+    footer:
+        contribute:
+            heading: സംഭാവന ചെയ്യുക
+            description: ഒരു നിർദ്ദേശം നൽകണോ? ഈ ഉള്ളടക്കം ഓപ്പൺ സോഴ്‌സ് ആണ്. അത് മെച്ചപ്പെടുത്താൻ ഞങ്ങളെ സഹായിക്കൂ.
+            button: സംഭാവന
+        subscribe:
+            heading: സമ്പർക്കം പുലർത്തുക
+            description: GitHub-ൻ്റെ ഏറ്റവും പുതിയ ഓപ്പൺ സോഴ്‌സ് നുറുങ്ങുകളെയും ഉറവിടങ്ങളെയും കുറിച്ച് ആദ്യം കേൾക്കുന്ന ആളാകൂ.
+            label: ഇമെയിൽ വിലാസം
+            button: സബ്സ്ക്രൈബ്
+        byline:
+            # [code], [love], and [github] will be replaced by octicons
+            format: "[code] കൂടെ [love] കൊണ്ട് [github] ഒപ്പം [friends]"
+            # Label for code octicon
+            code_label: കോഡ്
+            # Label for love octicon
+            love_label: സ്നേഹം
+            # Label for the contributors link
+            friends_label: സുഹൃത്തുക്കൾ

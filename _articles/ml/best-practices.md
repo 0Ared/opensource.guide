@@ -1,8 +1,8 @@
 ---
 lang: ml
-title: Best Practices for Maintainers
-description: Making your life easier as an open source maintainer, from documenting processes to leveraging your community.
-class: best-practices
+title: പരിപാലിക്കുന്നവർക്കുള്ള മികച്ച സമ്പ്രദായങ്ങൾ
+description: ഒരു ഓപ്പൺ സോഴ്‌സ് മെയിൻ്റനർ എന്ന നിലയിൽ നിങ്ങളുടെ ജീവിതം എളുപ്പമാക്കുന്നു, പ്രക്രിയകൾ ഡോക്യുമെൻ്റുചെയ്യുന്നത് മുതൽ നിങ്ങളുടെ കമ്മ്യൂണിറ്റിയെ പ്രയോജനപ്പെടുത്തുന്നത് വരെ.
+class: മികച്ച-രീതികൾ
 order: 5
 image: /assets/images/cards/best-practices.png
 related:
@@ -10,226 +10,224 @@ related:
     - leadership
 ---
 
-## What does it mean to be a maintainer?
+## ഒരു പരിപാലകനായിരിക്കുക എന്നതിൻ്റെ അർത്ഥമെന്താണ്?
 
-If you maintain an open source project that a lot of people use, you may have noticed you're coding less and responding to issues more.
+ധാരാളം ആളുകൾ ഉപയോഗിക്കുന്ന ഒരു ഓപ്പൺ സോഴ്‌സ് പ്രോജക്റ്റ് നിങ്ങൾ പരിപാലിക്കുകയാണെങ്കിൽ, നിങ്ങൾ കുറച്ച് കോഡ് ചെയ്യുന്നതും പ്രശ്‌നങ്ങളോട് കൂടുതൽ പ്രതികരിക്കുന്നതും നിങ്ങൾ ശ്രദ്ധിച്ചിരിക്കാം.
 
-In the early stages of a project, you're experimenting with new ideas and making decisions based on what you want. As your project increases in popularity, you'll find yourself working with your users and contributors more.
+ഒരു പ്രോജക്റ്റിൻ്റെ പ്രാരംഭ ഘട്ടത്തിൽ, നിങ്ങൾ പുതിയ ആശയങ്ങൾ പരീക്ഷിക്കുകയും നിങ്ങൾ ആഗ്രഹിക്കുന്നതിനെ അടിസ്ഥാനമാക്കി തീരുമാനങ്ങൾ എടുക്കുകയും ചെയ്യുന്നു. നിങ്ങളുടെ പ്രോജക്റ്റ് ജനപ്രീതി വർദ്ധിക്കുന്നതിനനുസരിച്ച്, നിങ്ങളുടെ ഉപയോക്താക്കൾക്കും സംഭാവകരുമായും കൂടുതൽ പ്രവർത്തിക്കുന്നതായി നിങ്ങൾ കണ്ടെത്തും.
 
-Maintaining a project requires more than code. These tasks are often unexpected, but they're just as important to a growing project. We've gathered a few ways to make your life easier, from documenting processes to leveraging your community.
+ഒരു പ്രോജക്റ്റ് പരിപാലിക്കുന്നതിന് കോഡിനേക്കാൾ കൂടുതൽ ആവശ്യമാണ്. ഈ ടാസ്ക്കുകൾ പലപ്പോഴും അപ്രതീക്ഷിതമാണ്, എന്നാൽ അവ വളരുന്ന പ്രോജക്റ്റിന് വളരെ പ്രധാനമാണ്. പ്രക്രിയകൾ ഡോക്യുമെൻ്റുചെയ്യുന്നത് മുതൽ നിങ്ങളുടെ കമ്മ്യൂണിറ്റിയെ പ്രയോജനപ്പെടുത്തുന്നത് വരെ നിങ്ങളുടെ ജീവിതം എളുപ്പമാക്കുന്നതിനുള്ള ചില വഴികൾ ഞങ്ങൾ ശേഖരിച്ചു.
 
-## Documenting your processes
+## നിങ്ങളുടെ പ്രക്രിയകൾ രേഖപ്പെടുത്തുന്നു
 
-Writing things down is one of the most important things you can do as a maintainer.
+ഒരു മെയിൻ്റനർ എന്ന നിലയിൽ നിങ്ങൾക്ക് ചെയ്യാൻ കഴിയുന്ന ഏറ്റവും പ്രധാനപ്പെട്ട കാര്യങ്ങളിൽ ഒന്നാണ് കാര്യങ്ങൾ എഴുതുക.
 
-Documentation not only clarifies your own thinking, but it helps other people understand what you need or expect, before they even ask.
+ഡോക്യുമെൻ്റേഷൻ നിങ്ങളുടെ സ്വന്തം ചിന്തയെ വ്യക്തമാക്കുക മാത്രമല്ല, മറ്റുള്ളവർ ചോദിക്കുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് എന്താണ് വേണ്ടതെന്ന് അല്ലെങ്കിൽ പ്രതീക്ഷിക്കുന്നത് എന്താണെന്ന് മനസ്സിലാക്കാൻ ഇത് സഹായിക്കുന്നു.
 
-Writing things down makes it easier to say no when something doesn't fit into your scope. It also makes it easier for people to pitch in and help. You never know who might be reading or using your project.
+കാര്യങ്ങൾ എഴുതുന്നത് നിങ്ങളുടെ പരിധിക്ക് അനുയോജ്യമല്ലാത്ത എന്തെങ്കിലും പറയുമ്പോൾ നോ എന്ന് പറയാൻ എളുപ്പമാക്കുന്നു. ആളുകൾക്ക് പിച്ച് ചെയ്യാനും സഹായിക്കാനും ഇത് എളുപ്പമാക്കുന്നു. നിങ്ങളുടെ പ്രോജക്റ്റ് ആരാണ് വായിക്കുന്നതെന്നോ ഉപയോഗിക്കുന്നതെന്നോ നിങ്ങൾക്കറിയില്ല.
 
-Even if you don't use full paragraphs, jotting down bullet points is better than not writing at all.
+നിങ്ങൾ മുഴുവൻ ഖണ്ഡികകളും ഉപയോഗിക്കുന്നില്ലെങ്കിലും, എഴുതാതിരിക്കുന്നതിനേക്കാൾ ബുള്ളറ്റ് പോയിൻ്റുകൾ രേഖപ്പെടുത്തുന്നതാണ് നല്ലത്.
 
-Remember to keep your documentation up-to-date. If you're not able to always do this, delete your outdated documentation or indicate it is outdated so contributors know updates are welcome.
+നിങ്ങളുടെ ഡോക്യുമെൻ്റേഷൻ കാലികമായി സൂക്ഷിക്കാൻ ഓർക്കുക. നിങ്ങൾക്ക് ഇത് എല്ലായ്‌പ്പോഴും ചെയ്യാൻ കഴിയുന്നില്ലെങ്കിൽ, നിങ്ങളുടെ കാലഹരണപ്പെട്ട ഡോക്യുമെൻ്റേഷൻ ഇല്ലാതാക്കുകയോ കാലഹരണപ്പെട്ടതാണെന്ന് സൂചിപ്പിക്കുകയോ ചെയ്യുക, അതിനാൽ അപ്‌ഡേറ്റുകൾ സ്വാഗതാർഹമാണെന്ന് സംഭാവന ചെയ്യുന്നവർക്ക് അറിയാം.
 
-### Write down your project's vision
+### നിങ്ങളുടെ പ്രോജക്റ്റിൻ്റെ കാഴ്ചപ്പാട് എഴുതുക
 
-Start by writing down the goals of your project. Add them to your README, or create a separate file called VISION. If there are other artifacts that could help, like a project roadmap, make those public as well.
+നിങ്ങളുടെ പ്രോജക്റ്റിൻ്റെ ലക്ഷ്യങ്ങൾ എഴുതി തുടങ്ങുക. അവ നിങ്ങളുടെ README-ലേക്ക് ചേർക്കുക അല്ലെങ്കിൽ VISION എന്ന പേരിൽ ഒരു പ്രത്യേക ഫയൽ സൃഷ്‌ടിക്കുക. പ്രോജക്റ്റ് റോഡ്‌മാപ്പ് പോലെ സഹായിക്കുന്ന മറ്റ് പുരാവസ്തുക്കൾ ഉണ്ടെങ്കിൽ അവയും പൊതുവായതാക്കുക.
 
-Having a clear, documented vision keeps you focused and helps you avoid "scope creep" from others' contributions.
+വ്യക്തവും ഡോക്യുമെൻ്റഡ് ആയതുമായ കാഴ്ചപ്പാട് നിങ്ങളെ ശ്രദ്ധ കേന്ദ്രീകരിക്കുകയും മറ്റുള്ളവരുടെ സംഭാവനകളിൽ നിന്ന് "സ്കോപ്പ് ക്രീപ്പ്" ഒഴിവാക്കാൻ സഹായിക്കുകയും ചെയ്യുന്നു.
 
-For example, @lord discovered that having a project vision helped him figure out which requests to spend time on. As a new maintainer, he regretted not sticking to his project's scope when he got his first feature request for [Slate](https://github.com/lord/slate).
+ഉദാഹരണത്തിന്, ഒരു പ്രോജക്റ്റ് വിഷൻ ഉള്ളത് ഏതൊക്കെ അഭ്യർത്ഥനകൾക്കാണ് സമയം ചിലവഴിക്കേണ്ടതെന്ന് മനസ്സിലാക്കാൻ സഹായിച്ചതായി @lord കണ്ടെത്തി. ഒരു പുതിയ മെയിൻ്റനർ എന്ന നിലയിൽ, തൻ്റെ ആദ്യ ഫീച്ചർ അഭ്യർത്ഥന ലഭിച്ചപ്പോൾ തൻ്റെ പ്രോജക്റ്റിൻ്റെ വ്യാപ്തിയിൽ ഉറച്ചുനിൽക്കാത്തതിൽ അദ്ദേഹം ഖേദിച്ചു. [Slate](https://github.com/lord/slate).
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/lord?s=180" class="pquote-avatar" alt="avatar">
-  I fumbled it. I didn't put in the effort to come up with a complete solution. Instead of a half-assed solution, I wish I had said "I don't have time for this right now, but I'll add it to the long term nice-to-have list."
+ ഞാൻ അത് കുഴക്കി. പൂർണ്ണമായ ഒരു പരിഹാരം കൊണ്ടുവരാൻ ഞാൻ പരിശ്രമിച്ചില്ല. അർദ്ധ-ആശയ പരിഹാരത്തിനുപകരം, "എനിക്ക് ഇപ്പോൾ ഇതിന് സമയമില്ല, പക്ഷേ ഞാൻ ഇത് ദീർഘകാലാടിസ്ഥാനത്തിലുള്ള നൈസ്-ടു-ഹെവ് ലിസ്റ്റിലേക്ക് ചേർക്കും" എന്ന് ഞാൻ പറഞ്ഞിരുന്നെങ്കിൽ എന്ന് ഞാൻ ആഗ്രഹിക്കുന്നു.
   <p markdown="1" class="pquote-credit">
-— @lord, ["Tips for new open source maintainers"](https://lord.io/blog/2014/oss-tips/)
+— @lord, ["പുതിയ ഓപ്പൺ സോഴ്സ് പരിപാലിക്കുന്നവർക്കുള്ള നുറുങ്ങുകൾ"](https://lord.io/blog/2014/oss-tips/)
   </p>
 </aside>
 
-### Communicate your expectations
+### നിങ്ങളുടെ പ്രതീക്ഷകൾ ആശയവിനിമയം നടത്തുക
 
-Rules can be nerve-wracking to write down. Sometimes you might feel like you're policing other people's behavior or killing all the fun.
+നിയമങ്ങൾ എഴുതാൻ ഞെരുക്കമുള്ളതാകാം. ചിലപ്പോൾ നിങ്ങൾ മറ്റുള്ളവരുടെ പെരുമാറ്റം നിയന്ത്രിക്കുകയോ എല്ലാ തമാശകളെയും കൊല്ലുകയോ ചെയ്യുന്നതായി നിങ്ങൾക്ക് തോന്നിയേക്കാം.
 
-Written and enforced fairly, however, good rules empower maintainers. They prevent you from getting dragged into doing things you don't want to do.
+ന്യായമായി എഴുതുകയും നടപ്പിലാക്കുകയും ചെയ്യുന്നു, എന്നിരുന്നാലും, നല്ല നിയമങ്ങൾ പരിപാലിക്കുന്നവരെ ശാക്തീകരിക്കുന്നു. നിങ്ങൾ ചെയ്യാൻ ആഗ്രഹിക്കാത്ത കാര്യങ്ങൾ ചെയ്യുന്നതിൽ നിന്ന് അവർ നിങ്ങളെ തടയുന്നു.
 
-Most people who come across your project don't know anything about you or your circumstances. They may assume you get paid to work on it, especially if it's something they regularly use and depend on. Maybe at one point you put a lot of time into your project, but now you're busy with a new job or family member.
+നിങ്ങളുടെ പ്രോജക്റ്റിൽ വരുന്ന മിക്ക ആളുകൾക്കും നിങ്ങളെക്കുറിച്ചോ നിങ്ങളുടെ സാഹചര്യങ്ങളെക്കുറിച്ചോ ഒന്നും അറിയില്ല. അതിൽ പ്രവർത്തിക്കാൻ നിങ്ങൾക്ക് പണം ലഭിക്കുമെന്ന് അവർ ഊഹിച്ചേക്കാം, പ്രത്യേകിച്ചും അവർ പതിവായി ഉപയോഗിക്കുന്നതും ആശ്രയിക്കുന്നതുമായ ഒന്നാണെങ്കിൽ. ഒരുപക്ഷേ ഒരു ഘട്ടത്തിൽ നിങ്ങൾ നിങ്ങളുടെ പ്രോജക്റ്റിനായി ധാരാളം സമയം ചെലവഴിച്ചേക്കാം, എന്നാൽ ഇപ്പോൾ നിങ്ങൾ ഒരു പുതിയ ജോലിയുടെയോ കുടുംബാംഗത്തിൻ്റെയോ തിരക്കിലാണ്.
 
-All of this is perfectly okay! Just make sure other people know about it.
+ഇതെല്ലാം തികച്ചും ശരിയാണ്! മറ്റുള്ളവർക്ക് ഇതിനെക്കുറിച്ച് അറിയാമെന്ന് ഉറപ്പാക്കുക.
 
-If maintaining your project is part-time or purely volunteered, be honest about how much time you have. This is not the same as how much time you think the project requires, or how much time others want you to spend.
+നിങ്ങളുടെ പ്രോജക്റ്റ് പരിപാലിക്കുന്നത് പാർട്ട് ടൈം അല്ലെങ്കിൽ പൂർണ്ണമായും സ്വമേധയാ ഉള്ളതാണെങ്കിൽ, നിങ്ങൾക്ക് എത്ര സമയമുണ്ടെന്ന് സത്യസന്ധത പുലർത്തുക. പ്രോജക്റ്റിന് എത്ര സമയം വേണമെന്ന് നിങ്ങൾ കരുതുന്നതിനോ മറ്റുള്ളവർ നിങ്ങൾ എത്ര സമയം ചെലവഴിക്കാൻ ആഗ്രഹിക്കുന്നു എന്നതിനോ തുല്യമല്ല ഇത്.
 
-Here are a few rules that are worth writing down:
+എഴുതേണ്ട ചില നിയമങ്ങൾ ഇതാ:
 
--   How a contribution is reviewed and accepted (_Do they need tests? An issue template?_)
--   The types of contributions you'll accept (_Do you only want help with a certain part of your code?_)
--   When it's appropriate to follow up (_for example, "You can expect a response from a maintainer within 7 days. If you haven't heard anything by then, feel free to ping the thread."_)
--   How much time you spend on the project (_for example, "We only spend about 5 hours per week on this project"_)
+-   ഒരു സംഭാവന എങ്ങനെ അവലോകനം ചെയ്യുകയും സ്വീകരിക്കുകയും ചെയ്യുന്നു (_അവർക്ക് ടെസ്റ്റുകൾ ആവശ്യമുണ്ടോ? ഒരു ഇഷ്യൂ ടെംപ്ലേറ്റ്?_)
+-   നിങ്ങൾ സ്വീകരിക്കുന്ന സംഭാവനകളുടെ തരങ്ങൾ (_നിങ്ങളുടെ കോഡിൻ്റെ ഒരു പ്രത്യേക ഭാഗത്ത് മാത്രമേ നിങ്ങൾക്ക് സഹായം ആവശ്യമുള്ളൂ?_)
+-   തുടർനടപടികൾ ഉചിതമാകുമ്പോൾ (ഉദാഹരണത്തിന്, "നിങ്ങൾക്ക് 7 ദിവസത്തിനുള്ളിൽ ഒരു കണ്ടെയ്‌നറിൽ നിന്ന് പ്രതികരണം പ്രതീക്ഷിക്കാം. അപ്പോഴേക്കും നിങ്ങൾ ഒന്നും കേട്ടിട്ടില്ലെങ്കിൽ, ത്രെഡ് പിംഗ് ചെയ്യാൻ മടിക്കേണ്ടതില്ല."\_)
+-   നിങ്ങൾ പ്രോജക്റ്റിനായി എത്ര സമയം ചെലവഴിക്കുന്നു (ഉദാഹരണത്തിന്, "ഞങ്ങൾ ഈ പ്രോജക്റ്റിനായി ആഴ്ചയിൽ ഏകദേശം 5 മണിക്കൂർ മാത്രമേ ചെലവഴിക്കൂ"\_)
 
-[Jekyll](https://github.com/jekyll/jekyll/tree/master/docs), [CocoaPods](https://github.com/CocoaPods/CocoaPods/wiki/Communication-&-Design-Rules), and [Homebrew](https://github.com/Homebrew/brew/blob/bbed7246bc5c5b7acb8c1d427d10b43e090dfd39/docs/Maintainers-Avoiding-Burnout.md) are several examples of projects with ground rules for maintainers and contributors.
+[Jekyll](https://github.com/jekyll/jekyll/tree/master/docs), [CocoaPods](https://github.com/CocoaPods/CocoaPods/wiki/Communication-&-Design-Rules), and [Homebrew](https://github.com/Homebrew/brew/blob/bbed7246bc5c5b7acb8c1d427d10b43e090dfd39/docs/Maintainers-Avoiding-Burnout.md) പരിപാലിക്കുന്നവർക്കും സംഭാവന ചെയ്യുന്നവർക്കും അടിസ്ഥാന നിയമങ്ങളുള്ള പ്രോജക്റ്റുകളുടെ നിരവധി ഉദാഹരണങ്ങളാണ്.
 
-### Keep communication public
+### ആശയവിനിമയം പൊതുവായി നിലനിർത്തുക
 
-Don't forget to document your interactions, too. Wherever you can, keep communication about your project public. If somebody tries to contact you privately to discuss a feature request or support need, politely direct them to a public communication channel, such as a mailing list or issue tracker.
+നിങ്ങളുടെ ഇടപെടലുകൾ രേഖപ്പെടുത്താനും മറക്കരുത്. നിങ്ങൾക്ക് കഴിയുന്നിടത്തെല്ലാം, നിങ്ങളുടെ പ്രോജക്റ്റിനെക്കുറിച്ചുള്ള ആശയവിനിമയം പൊതുവായി നിലനിർത്തുക. ഒരു ഫീച്ചർ അഭ്യർത്ഥനയോ പിന്തുണ ആവശ്യമോ ചർച്ച ചെയ്യാൻ ആരെങ്കിലും നിങ്ങളെ സ്വകാര്യമായി ബന്ധപ്പെടാൻ ശ്രമിക്കുകയാണെങ്കിൽ, ഒരു മെയിലിംഗ് ലിസ്റ്റ് അല്ലെങ്കിൽ ഇഷ്യൂ ട്രാക്കർ പോലുള്ള ഒരു പൊതു ആശയവിനിമയ ചാനലിലേക്ക് അവരെ മര്യാദയോടെ നയിക്കുക.
 
-If you meet with other maintainers, or make a major decision in private, document these conversations in public, even if it's just posting your notes.
+നിങ്ങൾ മറ്റ് മെയിൻ്റനർമാരുമായി കൂടിക്കാഴ്ച നടത്തുകയോ സ്വകാര്യമായി ഒരു പ്രധാന തീരുമാനം എടുക്കുകയോ ചെയ്താൽ, ഈ സംഭാഷണങ്ങൾ നിങ്ങളുടെ കുറിപ്പുകൾ പോസ്‌റ്റ് ചെയ്യുകയാണെങ്കിലും, പൊതുവായി രേഖപ്പെടുത്തുക.
 
-That way, anybody who joins your community will have access to the same information as someone who's been there for years.
+അതുവഴി, നിങ്ങളുടെ കമ്മ്യൂണിറ്റിയിൽ ചേരുന്ന ആർക്കും വർഷങ്ങളായി അവിടെയുള്ള ഒരാളുടെ അതേ വിവരങ്ങളിലേക്ക് ആക്‌സസ് ലഭിക്കും.
 
-## Learning to say no
+## ഇല്ല എന്ന് പറയാൻ പഠിക്കുന്നു
 
-You've written things down. Ideally, everybody would read your documentation, but in reality, you'll have to remind others that this knowledge exists.
+നിങ്ങൾ കാര്യങ്ങൾ എഴുതിയിട്ടുണ്ട്. എബൌട്ട്, എല്ലാവരും നിങ്ങളുടെ ഡോക്യുമെൻ്റേഷൻ വായിക്കും, എന്നാൽ വാസ്തവത്തിൽ, ഈ അറിവ് നിലവിലുണ്ടെന്ന് നിങ്ങൾ മറ്റുള്ളവരെ ഓർമ്മിപ്പിക്കേണ്ടതുണ്ട്.
 
-Having everything written down, however, helps depersonalize situations when you do need to enforce your rules.
+എന്നിരുന്നാലും, എല്ലാം എഴുതിയിരിക്കുന്നത്, നിങ്ങളുടെ നിയമങ്ങൾ നടപ്പിലാക്കേണ്ടിവരുമ്പോൾ സാഹചര്യങ്ങളെ വ്യക്തിപരമാക്കാൻ സഹായിക്കുന്നു.
 
-Saying no isn't fun, but _"Your contribution doesn't match this project's criteria"_ feels less personal than _"I don't like your contribution"_.
+ഇല്ല എന്ന് പറയുന്നത് രസകരമല്ല, എന്നാൽ _"നിങ്ങളുടെ സംഭാവന ഈ പ്രോജക്റ്റിൻ്റെ മാനദണ്ഡവുമായി പൊരുത്തപ്പെടുന്നില്ല"_ എന്നതിനേക്കാൾ വ്യക്തിപരമായി തോന്നുന്നത് _"എനിക്ക് നിങ്ങളുടെ സംഭാവന ഇഷ്ടമല്ല"_.
 
-Saying no applies to many situations you'll come across as a maintainer: feature requests that don't fit the scope, someone derailing a discussion, doing unnecessary work for others.
+ഒരു മെയിൻ്റനർ എന്ന നിലയിൽ നിങ്ങൾ അഭിമുഖീകരിക്കുന്ന പല സാഹചര്യങ്ങൾക്കും ബാധകമല്ലെന്ന് പറയുന്നത്: സ്കോപ്പിന് അനുയോജ്യമല്ലാത്ത ഫീച്ചർ അഭ്യർത്ഥനകൾ, ആരെങ്കിലും ഒരു ചർച്ചയെ തടസ്സപ്പെടുത്തുന്നു, മറ്റുള്ളവർക്കായി അനാവശ്യമായ ജോലി ചെയ്യുന്നു.
 
-### Keep the conversation friendly
+### സംഭാഷണം സൗഹൃദപരമായി സൂക്ഷിക്കുക
 
-One of the most important places you'll practice saying no is on your issue and pull request queue. As a project maintainer, you'll inevitably receive suggestions that you don't want to accept.
+നിങ്ങളുടെ പ്രശ്‌നത്തിലും അഭ്യർത്ഥന ക്യൂവിലും ഇല്ല എന്ന് പറയാൻ നിങ്ങൾ പരിശീലിക്കുന്ന ഏറ്റവും പ്രധാനപ്പെട്ട സ്ഥലങ്ങളിൽ ഒന്ന്. ഒരു പ്രോജക്റ്റ് മെയിൻ്റനർ എന്ന നിലയിൽ, നിങ്ങൾ സ്വീകരിക്കാൻ ആഗ്രഹിക്കാത്ത നിർദ്ദേശങ്ങൾ നിങ്ങൾക്ക് അനിവാര്യമായും ലഭിക്കും.
 
-Maybe the contribution changes your project's scope or doesn't match your vision. Maybe the idea is good, but the implementation is poor.
+സംഭാവന നിങ്ങളുടെ പ്രോജക്റ്റിൻ്റെ വ്യാപ്തിയെ മാറ്റിമറിച്ചേക്കാം അല്ലെങ്കിൽ നിങ്ങളുടെ കാഴ്ചപ്പാടുമായി പൊരുത്തപ്പെടുന്നില്ല. ആശയം നല്ലതായിരിക്കാം, പക്ഷേ നടപ്പാക്കൽ മോശമാണ്.
 
-Regardless of the reason, it is possible to tactfully handle contributions that don't meet your project's standards.
+കാരണം പരിഗണിക്കാതെ തന്നെ, നിങ്ങളുടെ പ്രോജക്റ്റിൻ്റെ മാനദണ്ഡങ്ങൾ പാലിക്കാത്ത സംഭാവനകൾ നയപരമായി കൈകാര്യം ചെയ്യാൻ സാധിക്കും.
 
-If you receive a contribution you don't want to accept, your first reaction might be to ignore it or pretend you didn't see it. Doing so could hurt the other person's feelings and even demotivate other potential contributors in your community.
+നിങ്ങൾ സ്വീകരിക്കാൻ ആഗ്രഹിക്കാത്ത ഒരു സംഭാവന നിങ്ങൾക്ക് ലഭിക്കുകയാണെങ്കിൽ, നിങ്ങളുടെ ആദ്യ പ്രതികരണം അത് അവഗണിക്കുകയോ കണ്ടില്ലെന്ന് നടിക്കുകയോ ആകാം. അങ്ങനെ ചെയ്യുന്നത് മറ്റൊരാളുടെ വികാരങ്ങളെ വ്രണപ്പെടുത്തുകയും നിങ്ങളുടെ കമ്മ്യൂണിറ്റിയിലെ മറ്റ് സാധ്യതയുള്ള സംഭാവകരെ തരംതാഴ്ത്തുകയും ചെയ്യും.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/krausefx?s=180" class="pquote-avatar" alt="avatar">
-  The key to handling support for large-scale open source projects is to keep issues moving. Try to avoid having issues stall. If you're an iOS developer you know how frustrating it can be to submit radars. You might hear back 2 years later, and are told to try again with the latest version of iOS.
+  വലിയ തോതിലുള്ള ഓപ്പൺ സോഴ്‌സ് പ്രോജക്‌റ്റുകൾക്കുള്ള പിന്തുണ കൈകാര്യം ചെയ്യുന്നതിനുള്ള താക്കോൽ പ്രശ്‌നങ്ങൾ നീക്കുക എന്നതാണ്. പ്രശ്നങ്ങൾ മുടങ്ങുന്നത് ഒഴിവാക്കാൻ ശ്രമിക്കുക. നിങ്ങളൊരു iOS ഡെവലപ്പറാണെങ്കിൽ റഡാറുകൾ സമർപ്പിക്കുന്നത് എത്രമാത്രം നിരാശാജനകമാണെന്ന് നിങ്ങൾക്കറിയാം. 2 വർഷത്തിന് ശേഷം നിങ്ങൾ വീണ്ടും കേൾക്കാനിടയുണ്ട്, iOS-ൻ്റെ ഏറ്റവും പുതിയ പതിപ്പ് ഉപയോഗിച്ച് വീണ്ടും ശ്രമിക്കാൻ പറഞ്ഞു.
   <p markdown="1" class="pquote-credit">
-— @KrauseFx, ["Scaling open source communities"](https://krausefx.com/blog/scaling-open-source-communities)
+— @KrauseFx, ["ഓപ്പൺ സോഴ്‌സ് കമ്മ്യൂണിറ്റികളുടെ സ്കെയിലിംഗ്"](https://krausefx.com/blog/scaling-open-source-communities)
   </p>
 </aside>
 
-Don't leave an unwanted contribution open because you feel guilty or want to be nice. Over time, your unanswered issues and PRs will make working on your project feel that much more stressful and intimidating.
+നിങ്ങൾക്ക് കുറ്റബോധം തോന്നുന്നതിനാലോ നല്ലവരാകാൻ ആഗ്രഹിക്കുന്നതിനാലോ അനാവശ്യമായ സംഭാവനകൾ തുറന്നിടരുത്. കാലക്രമേണ, നിങ്ങളുടെ ഉത്തരം ലഭിക്കാത്ത പ്രശ്‌നങ്ങളും PR-കളും നിങ്ങളുടെ പ്രോജക്‌റ്റിൽ പ്രവർത്തിക്കുന്നത് കൂടുതൽ സമ്മർദ്ദവും ഭയപ്പെടുത്തുന്നതുമാക്കും.
 
-It's better to immediately close the contributions you know you don't want to accept. If your project already suffers from a large backlog, @steveklabnik has suggestions for [how to triage issues efficiently](https://words.steveklabnik.com/how-to-be-an-open-source-gardener).
+നിങ്ങൾക്ക് സ്വീകരിക്കാൻ താൽപ്പര്യമില്ലെന്ന് നിങ്ങൾക്കറിയാവുന്ന സംഭാവനകൾ ഉടനടി അവസാനിപ്പിക്കുന്നതാണ് നല്ലത്. നിങ്ങളുടെ പ്രോജക്റ്റ് ഇതിനകം ഒരു വലിയ ബാക്ക്‌ലോഗ് നേരിടുന്നുണ്ടെങ്കിൽ, @steveklabnik-ന് അതിനുള്ള നിർദ്ദേശങ്ങളുണ്ട് [പ്രശ്‌നങ്ങൾ എങ്ങനെ കാര്യക്ഷമമായി പരിഹരിക്കാം](https://words.steveklabnik.com/how-to-be-an-open-source-gardener).
 
-Secondly, ignoring contributions sends a negative signal to your community. Contributing to a project can be intimidating, especially if it's someone's first time. Even if you don't accept their contribution, acknowledge the person behind it and thank them for their interest. It's a big compliment!
+രണ്ടാമതായി, സംഭാവനകൾ അവഗണിക്കുന്നത് നിങ്ങളുടെ കമ്മ്യൂണിറ്റിക്ക് ഒരു നെഗറ്റീവ് സിഗ്നൽ അയയ്ക്കുന്നു. ഒരു പ്രോജക്‌റ്റിലേക്ക് സംഭാവന ചെയ്യുന്നത് ഭയപ്പെടുത്തുന്നതാണ്, പ്രത്യേകിച്ചും ഇത് ആരുടെയെങ്കിലും ആദ്യമാണെങ്കിൽ. നിങ്ങൾ അവരുടെ സംഭാവനകൾ സ്വീകരിച്ചില്ലെങ്കിലും, അതിന് പിന്നിലുള്ള വ്യക്തിയെ അംഗീകരിക്കുകയും അവരുടെ താൽപ്പര്യത്തിന് നന്ദി പറയുകയും ചെയ്യുക. അതൊരു വലിയ അഭിനന്ദനമാണ്!
 
-If you don't want to accept a contribution:
+നിങ്ങൾക്ക് ഒരു സംഭാവന സ്വീകരിക്കാൻ താൽപ്പര്യമില്ലെങ്കിൽ:
 
--   **Thank them** for their contribution
--   **Explain why it doesn't fit** into the scope of the project, and offer clear suggestions for improvement, if you're able. Be kind, but firm.
--   **Link to relevant documentation**, if you have it. If you notice repeated requests for things you don't want to accept, add them into your documentation to avoid repeating yourself.
--   **Close the request**
+-   **അവരുടെ സംഭാവനകൾക്ക്** നന്ദി
+-   **എന്തുകൊണ്ടാണ് ഇത് പ്രോജക്റ്റിൻ്റെ പരിധിയിൽ** ചേരാത്തതെന്ന് വിശദീകരിക്കുക, നിങ്ങൾക്ക് കഴിയുമെങ്കിൽ മെച്ചപ്പെടുത്തുന്നതിന് വ്യക്തമായ നിർദ്ദേശങ്ങൾ നൽകുക. ദയയുള്ളവനായിരിക്കുക, എന്നാൽ ഉറച്ചുനിൽക്കുക.
+-   ** പ്രസക്തമായ ഡോക്യുമെൻ്റേഷനിലേക്കുള്ള ലിങ്ക്**, നിങ്ങൾക്കത് ഉണ്ടെങ്കിൽ. നിങ്ങൾ സ്വീകരിക്കാൻ ആഗ്രഹിക്കാത്ത കാര്യങ്ങൾക്കായി ആവർത്തിച്ചുള്ള അഭ്യർത്ഥനകൾ ശ്രദ്ധയിൽപ്പെട്ടാൽ, സ്വയം ആവർത്തിക്കുന്നത് ഒഴിവാക്കാൻ അവ നിങ്ങളുടെ ഡോക്യുമെൻ്റേഷനിൽ ചേർക്കുക.
+-   **അഭ്യർത്ഥന അടയ്ക്കുക**
 
-You shouldn't need more than 1-2 sentences to respond. For example, when a user of [celery](https://github.com/celery/celery/) reported a Windows-related error, @berkerpeksag [responded with](https://github.com/celery/celery/issues/3383):
+പ്രതികരിക്കാൻ നിങ്ങൾക്ക് 1-2 വാക്യങ്ങളിൽ കൂടുതൽ ആവശ്യമില്ല. ഉദാഹരണത്തിന്, ഒരു ഉപയോക്താവ് എപ്പോൾ [celery](https://github.com/celery/celery/) reported a Windows-related error, @berkerpeksag [responded with](https://github.com/celery/celery/issues/3383):
 
 ![Celery screenshot](/assets/images/best-practices/celery.png)
 
-If the thought of saying no terrifies you, you're not alone. As @jessfraz [put it](https://blog.jessfraz.com/post/the-art-of-closing/):
+ഇല്ല എന്ന ചിന്ത നിങ്ങളെ ഭയപ്പെടുത്തുന്നുവെങ്കിൽ, നിങ്ങൾ ഒറ്റയ്ക്കല്ല. @jessfraz ആയി [put it](https://blog.jessfraz.com/post/the-art-of-closing/):
 
-> I've talked to maintainers from several different open source projects, Mesos, Kubernetes, Chromium, and they all agree one of the hardest parts of being a maintainer is saying "No" to patches you don't want.
+> വിവിധ ഓപ്പൺ സോഴ്‌സ് പ്രോജക്‌റ്റുകളായ മെസോസ്, കുബർനെറ്റസ്, ക്രോമിയം എന്നിവയിൽ നിന്നുള്ള മെയിൻ്റനർമാരോട് ഞാൻ സംസാരിച്ചിട്ടുണ്ട്, കൂടാതെ മെയിൻ്റനർ ആകുന്നതിൻ്റെ ഏറ്റവും പ്രയാസമേറിയ ഭാഗങ്ങളിലൊന്ന് നിങ്ങൾക്ക് ആവശ്യമില്ലാത്ത പാച്ചുകൾക്ക് "ഇല്ല" എന്ന് പറയുന്നതാണെന്ന് അവരെല്ലാം സമ്മതിക്കുന്നു.
 
-Don't feel guilty about not wanting to accept someone's contribution. The first rule of open source, [according to](https://twitter.com/solomonstre/status/715277134978113536) @shykes: _"No is temporary, yes is forever."_ While empathizing with another person's enthusiasm is a good thing, rejecting a contribution is not the same as rejecting the person behind it.
+ഒരാളുടെ സംഭാവന സ്വീകരിക്കാൻ ആഗ്രഹിക്കാത്തതിൽ കുറ്റബോധം തോന്നരുത്. ഓപ്പൺ സോഴ്സിൻ്റെ ആദ്യ നിയമം, [ഇതനുസരിച്ച്](https://twitter.com/solomonstre/status/715277134978113536) @shykes: _"ഇല്ല എന്നത് താൽക്കാലികമാണ്, അതെ എന്നേക്കും."_ മറ്റൊരു വ്യക്തിയുടെ ആവേശത്തോട് സഹാനുഭൂതി കാണിക്കുന്നത് ഒരു നല്ല കാര്യമാണെങ്കിലും, ഒരു സംഭാവന നിരസിക്കുന്നത് അതിൻ്റെ പിന്നിലുള്ള വ്യക്തിയെ നിരസിക്കുന്നതിന് തുല്യമല്ല.
 
-Ultimately, if a contribution isn't good enough, you're under no obligation to accept it. Be kind and responsive when people contribute to your project, but only accept changes that you truly believe will make your project better. The more often you practice saying no, the easier it becomes. Promise.
+ആത്യന്തികമായി, ഒരു സംഭാവന മതിയായതല്ലെങ്കിൽ, അത് സ്വീകരിക്കാൻ നിങ്ങൾക്ക് യാതൊരു ബാധ്യതയുമില്ല. നിങ്ങളുടെ പ്രോജക്റ്റിലേക്ക് ആളുകൾ സംഭാവന ചെയ്യുമ്പോൾ ദയയും പ്രതികരണവും പുലർത്തുക, എന്നാൽ നിങ്ങളുടെ പ്രോജക്റ്റ് മികച്ചതാക്കുമെന്ന് നിങ്ങൾ വിശ്വസിക്കുന്ന മാറ്റങ്ങൾ മാത്രം സ്വീകരിക്കുക. എത്ര തവണ നിങ്ങൾ ഇല്ല എന്ന് പറയാൻ പരിശീലിക്കുന്നു, അത് എളുപ്പമാകും. വാഗ്ദാനം ചെയ്യുക.
 
-### Be proactive
+### സജീവമായിരിക്കുക
 
-To reduce the volume of unwanted contributions in the first place, explain your project's process for submitting and accepting contributions in your contributing guide.
+ആദ്യം തന്നെ അനാവശ്യ സംഭാവനകളുടെ അളവ് കുറയ്ക്കുന്നതിന്, സംഭാവനകൾ സമർപ്പിക്കുന്നതിനും സ്വീകരിക്കുന്നതിനുമുള്ള നിങ്ങളുടെ പ്രോജക്റ്റിൻ്റെ പ്രോസസ് നിങ്ങളുടെ സംഭാവന ഗൈഡിൽ വിശദീകരിക്കുക.
 
-If you're receiving too many low-quality contributions, require that contributors do a bit of work beforehand, for example:
+നിങ്ങൾക്ക് വളരെ കുറഞ്ഞ നിലവാരമുള്ള സംഭാവനകൾ ലഭിക്കുന്നുണ്ടെങ്കിൽ, സംഭാവന ചെയ്യുന്നവർ കുറച്ച് ജോലികൾ ചെയ്യണമെന്ന് ആവശ്യപ്പെടുന്നു, ഉദാഹരണത്തിന്:
 
--   Fill out an issue or PR template/checklist
--   Open an issue before submitting a PR
+-   ഒരു പ്രശ്നം അല്ലെങ്കിൽ PR ടെംപ്ലേറ്റ്/ചെക്ക്‌ലിസ്റ്റ് പൂരിപ്പിക്കുക
+-   ഒരു പിആർ സമർപ്പിക്കുന്നതിന് മുമ്പ് ഒരു പ്രശ്നം തുറക്കുക
 
-If they don't follow your rules, close the issue immediately and point to your documentation.
+അവർ നിങ്ങളുടെ നിയമങ്ങൾ പാലിക്കുന്നില്ലെങ്കിൽ, പ്രശ്നം ഉടനടി അവസാനിപ്പിച്ച് നിങ്ങളുടെ ഡോക്യുമെൻ്റേഷനിലേക്ക് ചൂണ്ടിക്കാണിക്കുക.
 
-While this approach may feel unkind at first, being proactive is actually good for both parties. It reduces the chance that someone will put in many wasted hours of work into a pull request that you aren't going to accept. And it makes your workload easier to manage.
+ഈ സമീപനം ആദ്യം ദയയില്ലാത്തതായി തോന്നിയേക്കാമെങ്കിലും, സജീവമായിരിക്കുന്നത് യഥാർത്ഥത്തിൽ ഇരു കക്ഷികൾക്കും നല്ലതാണ്. നിങ്ങൾ സ്വീകരിക്കാൻ പോകാത്ത ഒരു പുൾ അഭ്യർത്ഥനയിലേക്ക് ആരെങ്കിലും പാഴായ മണിക്കൂറുകളോളം ജോലി ചെയ്യാനുള്ള സാധ്യത ഇത് കുറയ്ക്കുന്നു. കൂടാതെ നിങ്ങളുടെ ജോലിഭാരം നിയന്ത്രിക്കുന്നത് എളുപ്പമാക്കുന്നു.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/mikemcquaid?s=180" class="pquote-avatar" alt="avatar">
-  Ideally, explain to them and in a CONTRIBUTING.md file how they can get a better indication in the future on what would or would not be accepted before they begin the work.
+  മികച്ച രീതിയിൽ, അവർ ജോലി ആരംഭിക്കുന്നതിന് മുമ്പ് എന്ത് സ്വീകരിക്കും അല്ലെങ്കിൽ സ്വീകരിക്കില്ല എന്നതിനെ കുറിച്ച് ഭാവിയിൽ അവർക്ക് എങ്ങനെ മികച്ച സൂചന ലഭിക്കുമെന്ന് CONTRIBUTING.md ഫയലിൽ വിശദീകരിക്കുക.
   <p markdown="1" class="pquote-credit">
-— @MikeMcQuaid, ["Kindly Closing Pull Requests"](https://github.com/blog/2124-kindly-closing-pull-requests)
+— @MikeMcQuaid, ["പുൾ അഭ്യർത്ഥനകൾ ദയവായി അവസാനിപ്പിക്കുക"](https://github.com/blog/2124-kindly-closing-pull-requests)
   </p>
 </aside>
 
-Sometimes, when you say no, your potential contributor may get upset or criticize your decision. If their behavior becomes hostile, [take steps to defuse the situation](https://github.com/jonschlinkert/maintainers-guide-to-staying-positive#action-items) or even remove them from your community, if they're not willing to collaborate constructively.
+ചിലപ്പോൾ, നിങ്ങൾ ഇല്ല എന്ന് പറയുമ്പോൾ, നിങ്ങളുടെ സാധ്യതയുള്ള സംഭാവകൻ അസ്വസ്ഥനാകുകയോ നിങ്ങളുടെ തീരുമാനത്തെ വിമർശിക്കുകയോ ചെയ്തേക്കാം. അവരുടെ പെരുമാറ്റം ശത്രുതയുള്ളതാണെങ്കിൽ, [സാഹചര്യം ലഘൂകരിക്കാനുള്ള നടപടികൾ കൈക്കൊള്ളുക](https://github.com/jonschlinkert/maintainers-guide-to-staying-positive#action-items) അല്ലെങ്കിൽ ക്രിയാത്മകമായി സഹകരിക്കാൻ അവർ തയ്യാറല്ലെങ്കിൽ അവരെ നിങ്ങളുടെ കമ്മ്യൂണിറ്റിയിൽ നിന്ന് നീക്കം ചെയ്യുക.
 
-### Embrace mentorship
+### ഉപദേശം സ്വീകരിക്കുക
 
-Maybe someone in your community regularly submits contributions that don't meet your project's standards. It can be frustrating for both parties to repeatedly go through rejections.
+നിങ്ങളുടെ പ്രോജക്റ്റിൻ്റെ മാനദണ്ഡങ്ങൾ പാലിക്കാത്ത സംഭാവനകൾ നിങ്ങളുടെ കമ്മ്യൂണിറ്റിയിലെ ആരെങ്കിലും പതിവായി സമർപ്പിച്ചേക്കാം. നിരാകരണങ്ങളിലൂടെ ആവർത്തിച്ച് കടന്നുപോകുന്നത് ഇരുകൂട്ടർക്കും നിരാശാജനകമായിരിക്കും.
 
-If you see that someone is enthusiastic about your project, but needs a bit of polish, be patient. Explain clearly in each situation why their contributions don't meet the expectations of the project. Try pointing them to an easier or less ambiguous task, like an issue marked _"good first issue,"_ to get their feet wet. If you have time, consider mentoring them through their first contribution, or find someone else in your community who might be willing to mentor them.
+ആരെങ്കിലും നിങ്ങളുടെ പ്രോജക്‌റ്റിൽ ആവേശഭരിതരാണെന്ന് നിങ്ങൾ കാണുകയാണെങ്കിൽ, പക്ഷേ അൽപ്പം പോളിഷ് ആവശ്യമുണ്ടെങ്കിൽ, ക്ഷമയോടെയിരിക്കുക. അവരുടെ സംഭാവനകൾ പദ്ധതിയുടെ പ്രതീക്ഷകൾ നിറവേറ്റാത്തത് എന്തുകൊണ്ടാണെന്ന് ഓരോ സാഹചര്യത്തിലും വ്യക്തമായി വിശദീകരിക്കുക. അവരുടെ പാദങ്ങൾ നനയ്ക്കുന്നതിന്, _"നല്ല ആദ്യ ലക്കം"_ എന്ന് അടയാളപ്പെടുത്തിയിരിക്കുന്ന ഒരു പ്രശ്നം പോലെ, എളുപ്പമോ അവ്യക്തമോ ആയ ഒരു ജോലിയിലേക്ക് അവരെ ചൂണ്ടിക്കാണിക്കാൻ ശ്രമിക്കുക. നിങ്ങൾക്ക് സമയമുണ്ടെങ്കിൽ, അവരുടെ ആദ്യ സംഭാവനയിലൂടെ അവരെ ഉപദേശിക്കുന്നത് പരിഗണിക്കുക, അല്ലെങ്കിൽ നിങ്ങളുടെ കമ്മ്യൂണിറ്റിയിൽ അവരെ ഉപദേശിക്കാൻ തയ്യാറുള്ള മറ്റാരെയെങ്കിലും കണ്ടെത്തുക.
 
-## Leverage your community
+## നിങ്ങളുടെ കമ്മ്യൂണിറ്റിയെ പ്രയോജനപ്പെടുത്തുക
 
-You don't have to do everything yourself. Your project's community exists for a reason! Even if you don't yet have an active contributor community, if you have a lot of users, put them to work.
+എല്ലാം സ്വയം ചെയ്യേണ്ടതില്ല. നിങ്ങളുടെ പ്രോജക്റ്റിൻ്റെ കമ്മ്യൂണിറ്റി ഒരു കാരണത്താൽ നിലവിലുണ്ട്! നിങ്ങൾക്ക് ഇതുവരെ സജീവമായ ഒരു സംഭാവക കമ്മ്യൂണിറ്റി ഇല്ലെങ്കിലും, നിങ്ങൾക്ക് ധാരാളം ഉപയോക്താക്കൾ ഉണ്ടെങ്കിൽ, അവരെ ജോലിയിൽ ഉൾപ്പെടുത്തുക.
 
-### Share the workload
+### ജോലിഭാരം പങ്കിടുക
 
-If you're looking for others to pitch in, start by asking around.
+നിങ്ങൾ മറ്റുള്ളവരെ പിച്ച് ചെയ്യാനായി തിരയുകയാണെങ്കിൽ, ചുറ്റും ചോദിച്ചുകൊണ്ട് ആരംഭിക്കുക.
 
-One way to gain new contributors is to explicitly [label issues that are simple enough for beginners to tackle](https://help.github.com/en/articles/helping-new-contributors-find-your-project-with-labels). GitHub will then surface these issues in various places on the platform, increasing their visibility.
+പുതിയ സംഭാവകരെ നേടാനുള്ള ഒരു മാർഗ്ഗം വ്യക്തമായാണ് [തുടക്കക്കാർക്ക് പരിഹരിക്കാൻ കഴിയുന്നത്ര ലളിതമായ പ്രശ്നങ്ങൾ ലേബൽ ചെയ്യുക](https://help.github.com/en/articles/helping-new-contributors-find-your-project-with-labels). GitHub ഈ പ്രശ്‌നങ്ങൾ പ്ലാറ്റ്‌ഫോമിലെ വിവിധ സ്ഥലങ്ങളിൽ അവതരിപ്പിക്കുകയും അവയുടെ ദൃശ്യപരത വർദ്ധിപ്പിക്കുകയും ചെയ്യും.
 
-When you see new contributors making repeated contributions, recognize their work by offering more responsibility. Document how others can grow into leadership roles if they wish.
+ആവർത്തിച്ചുള്ള സംഭാവനകൾ നൽകുന്ന പുതിയ സംഭാവകർ കാണുമ്പോൾ, കൂടുതൽ ഉത്തരവാദിത്തം വാഗ്ദാനം ചെയ്തുകൊണ്ട് അവരുടെ ജോലി തിരിച്ചറിയുക. മറ്റുള്ളവർക്ക് അവർ ആഗ്രഹിക്കുന്നുവെങ്കിൽ നേതൃപരമായ റോളുകളിലേക്ക് എങ്ങനെ വളരാൻ കഴിയുമെന്ന് രേഖപ്പെടുത്തുക.
 
-Encouraging others to [share ownership of the project](../building-community/#share-ownership-of-your-project) can greatly reduce your own workload, as @lmccart discovered on her project, [p5.js](https://github.com/processing/p5.js).
+മറ്റുള്ളവരെ പ്രോത്സാഹിപ്പിക്കുന്നു [പദ്ധതിയുടെ ഉടമസ്ഥാവകാശം പങ്കിടുക](../building-community/#share-ownership-of-your-project) @lmccart അവളുടെ പ്രോജക്റ്റിൽ കണ്ടെത്തിയതുപോലെ, നിങ്ങളുടെ സ്വന്തം ജോലിഭാരം ഗണ്യമായി കുറയ്ക്കാൻ കഴിയും, [p5.js](https://github.com/processing/p5.js).
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/lmccart?s=180" class="pquote-avatar" alt="avatar">
-  I’d been saying, "Yeah, anyone can be involved, you don’t have to have a lot of coding expertise [...]." We had people sign up to come [to an event] and that’s when I was really wondering: is this true, what I’ve been saying? There are gonna be 40 people who show up, and it’s not like I can sit with each of them...But people came together, and it just sort of worked. As soon as one person got it, they could teach their neighbour.
+ ഞാൻ പറഞ്ഞുകൊണ്ടിരുന്നു, "അതെ, ആർക്കും ഉൾപ്പെടാം, നിങ്ങൾക്ക് ധാരാളം കോഡിംഗ് വൈദഗ്ദ്ധ്യം ആവശ്യമില്ല [...]." [ഒരു ഇവൻ്റിലേക്ക്] വരാൻ ഞങ്ങൾക്ക് ആളുകൾ സൈൻ അപ്പ് ചെയ്‌തു, അപ്പോഴാണ് ഞാൻ ശരിക്കും ആശ്ചര്യപ്പെട്ടത്: ഇത് സത്യമാണോ, ഞാൻ പറയുന്നത്? അവിടെ 40 പേർ പ്രത്യക്ഷപ്പെടും, എനിക്ക് അവരിൽ ഓരോരുത്തരുടെയും കൂടെ ഇരിക്കാൻ കഴിയുമെന്ന് തോന്നുന്നില്ല... പക്ഷേ ആളുകൾ ഒത്തുകൂടി, അത് ഒരു തരത്തിൽ പ്രവർത്തിച്ചു. ഒരാൾക്ക് കിട്ടിയാലുടൻ അയൽക്കാരനെ പഠിപ്പിക്കാം.
   <p markdown="1" class="pquote-credit">
-—  @lmccart, ["What Does "Open Source" Even Mean? p5.js Edition"](https://medium.com/@kenjagan/what-does-open-source-even-mean-p5-js-edition-98c02d354b39)
+—  @lmccart, [""ഓപ്പൺ സോഴ്സ്" എന്നതിൻ്റെ അർത്ഥമെന്താണ്? p5.js പതിപ്പ്"](https://medium.com/@kenjagan/what-does-open-source-even-mean-p5-js-edition-98c02d354b39)
   </p>
 </aside>
 
-If you need to step away from your project, either on hiatus or permanently, there's no shame in asking someone else to take over for you.
+ഒരു ഇടവേളയിലോ അല്ലെങ്കിൽ ശാശ്വതമായോ നിങ്ങളുടെ പ്രോജക്റ്റിൽ നിന്ന് മാറിനിൽക്കണമെങ്കിൽ, നിങ്ങൾക്കായി ഏറ്റെടുക്കാൻ മറ്റൊരാളോട് ആവശ്യപ്പെടുന്നതിൽ ലജ്ജയില്ല.
 
-If other people are enthusiastic about its direction, give them commit access or formally hand over control to someone else. If someone forked your project and is actively maintaining it elsewhere, consider linking to the fork from your original project. It's great that so many people want your project to live on!
+മറ്റ് ആളുകൾക്ക് അതിൻ്റെ ദിശയിൽ ഉത്സാഹമുണ്ടെങ്കിൽ, അവർക്ക് പ്രവേശനം നൽകുക അല്ലെങ്കിൽ ഔപചാരികമായി മറ്റൊരാൾക്ക് നിയന്ത്രണം കൈമാറുക. ആരെങ്കിലും നിങ്ങളുടെ പ്രോജക്റ്റ് ഫോർക്ക് ചെയ്യുകയും അത് മറ്റെവിടെയെങ്കിലും സജീവമായി പരിപാലിക്കുകയും ചെയ്യുന്നുവെങ്കിൽ, നിങ്ങളുടെ യഥാർത്ഥ പ്രോജക്റ്റിൽ നിന്ന് ഫോർക്കിലേക്ക് ലിങ്ക് ചെയ്യുന്നത് പരിഗണിക്കുക. നിങ്ങളുടെ പ്രോജക്റ്റ് നിലനിൽക്കണമെന്ന് നിരവധി ആളുകൾ ആഗ്രഹിക്കുന്നു എന്നത് വളരെ സന്തോഷകരമാണ്!
 
-@progrium [found that](https://web.archive.org/web/20151204215958/https://progrium.com/blog/2015/12/04/leadership-guilt-and-pull-requests/) documenting the vision for his project, [Dokku](https://github.com/dokku/dokku), helped those goals live on even after he stepped away from the project:
+@progrium [എന്ന് കണ്ടെത്തി](https://web.archive.org/web/20151204215958/https://progrium.com/blog/2015/12/04/leadership-guilt-and-pull-requests/) അവൻ്റെ പ്രോജക്റ്റിനായുള്ള കാഴ്ചപ്പാട് രേഖപ്പെടുത്തുന്നു, [ഡോക്കു](https://github.com/dokku/dokku),പദ്ധതിയിൽ നിന്ന് പിന്മാറിയതിനുശേഷവും ആ ലക്ഷ്യങ്ങൾ നിലനിൽക്കാൻ സഹായിച്ചു:
 
-> I wrote a wiki page describing what I wanted and why I wanted it. For some reason it came as a surprise to me that the maintainers started moving the project in that direction! Did it happen exactly how I'd do it? Not always. But it still brought the project closer to what I wrote down.
+> എനിക്ക് എന്താണ് വേണ്ടതെന്നും എന്തുകൊണ്ട് അത് വേണമെന്നും വിവരിച്ച് ഞാൻ ഒരു വിക്കി പേജ് എഴുതി. ചില കാരണങ്ങളാൽ, മെയിൻ്റനർമാർ ആ ദിശയിലേക്ക് പദ്ധതി നീക്കാൻ തുടങ്ങിയത് എന്നെ അത്ഭുതപ്പെടുത്തി! ഞാൻ അത് എങ്ങനെ ചെയ്യണം എന്ന് കൃത്യമായി സംഭവിച്ചോ? എപ്പോഴും അല്ല. പക്ഷേ, അത് ഞാൻ എഴുതിയതിനോട് പദ്ധതിയെ അടുപ്പിച്ചു.
 
-### Let others build the solutions they need
+### മറ്റുള്ളവർക്ക് ആവശ്യമായ പരിഹാരങ്ങൾ നിർമ്മിക്കാൻ അനുവദിക്കുക
 
-If a potential contributor has a different opinion on what your project should do, you may want to gently encourage them to work on their own fork.
+നിങ്ങളുടെ പ്രോജക്റ്റ് എന്തുചെയ്യണമെന്നതിനെക്കുറിച്ച് ഒരു സംഭാവകന് വ്യത്യസ്ത അഭിപ്രായമുണ്ടെങ്കിൽ, അവരുടെ സ്വന്തം ഫോർക്കിൽ പ്രവർത്തിക്കാൻ നിങ്ങൾ അവരെ സൌമ്യമായി പ്രോത്സാഹിപ്പിക്കേണ്ടതുണ്ട്.
 
-Forking a project doesn't have to be a bad thing. Being able to copy and modify projects is one of the best things about open source. Encouraging your community members to work on their own fork can provide the creative outlet they need, without conflicting with your project's vision.
+ഒരു പ്രോജക്റ്റ് ഫോർക്ക് ചെയ്യുന്നത് ഒരു മോശം കാര്യമായിരിക്കണമെന്നില്ല. പ്രോജക്‌റ്റുകൾ പകർത്താനും പരിഷ്‌ക്കരിക്കാനും കഴിയുന്നത് ഓപ്പൺ സോഴ്‌സിൻ്റെ ഏറ്റവും മികച്ച കാര്യങ്ങളിൽ ഒന്നാണ്. നിങ്ങളുടെ കമ്മ്യൂണിറ്റി അംഗങ്ങളെ അവരുടെ സ്വന്തം ഫോർക്കിൽ പ്രവർത്തിക്കാൻ പ്രോത്സാഹിപ്പിക്കുന്നത്, നിങ്ങളുടെ പ്രോജക്റ്റിൻ്റെ കാഴ്ചപ്പാടുമായി വൈരുദ്ധ്യമില്ലാതെ അവർക്ക് ആവശ്യമായ ക്രിയേറ്റീവ് ഔട്ട്‌ലെറ്റ് നൽകാൻ കഴിയും.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/geerlingguy?s=180" class="pquote-avatar" alt="avatar">
-  I cater to the 80% use case. If you are one of the unicorns, please fork my work. I won't get offended! My public projects are almost always meant to solve the most common problems; I try to make it easy to go deeper by either forking my work or extending it.
+  80% ഉപയോഗ കേസ് ഞാൻ നിറവേറ്റുന്നു. നിങ്ങൾ യൂണികോണുകളിൽ ഒരാളാണെങ്കിൽ, ദയവായി എൻ്റെ ജോലി ഉപേക്ഷിക്കുക. ഞാൻ അസ്വസ്ഥനാകില്ല! എൻ്റെ പൊതു പദ്ധതികൾ മിക്കവാറും എല്ലായ്‌പ്പോഴും ഏറ്റവും സാധാരണമായ പ്രശ്‌നങ്ങൾ പരിഹരിക്കുന്നതിനാണ്; ഒന്നുകിൽ എൻ്റെ ജോലി നീട്ടിക്കൊണ്ടോ അല്ലെങ്കിൽ നീട്ടിക്കൊണ്ടോ ആഴത്തിൽ പോകുന്നത് എളുപ്പമാക്കാൻ ഞാൻ ശ്രമിക്കുന്നു.
   <p markdown="1" class="pquote-credit">
-— @geerlingguy, ["Why I Close PRs"](https://www.jeffgeerling.com/blog/2016/why-i-close-prs-oss-project-maintainer-notes)
+— @geerlingguy, ["എന്തുകൊണ്ടാണ് ഞാൻ പിആർ അടയ്ക്കുന്നത്"](https://www.jeffgeerling.com/blog/2016/why-i-close-prs-oss-project-maintainer-notes)
   </p>
 </aside>
 
-The same applies to a user who really wants a solution that you simply don't have the bandwidth to build. Offering APIs and customization hooks can help others meet their own needs, without having to modify the source directly. @orta [found that](https://artsy.github.io/blog/2016/07/03/handling-big-projects/) encouraging plugins for CocoaPods led to "some of the most interesting ideas":
+നിങ്ങൾക്ക് നിർമ്മിക്കാനുള്ള ബാൻഡ്‌വിഡ്ത്ത് ഇല്ലാത്ത ഒരു പരിഹാരം ശരിക്കും ആഗ്രഹിക്കുന്ന ഒരു ഉപയോക്താവിനും ഇത് ബാധകമാണ്. API-കളും ഇഷ്‌ടാനുസൃതമാക്കൽ ഹുക്കുകളും വാഗ്ദാനം ചെയ്യുന്നത്, ഉറവിടം നേരിട്ട് പരിഷ്‌ക്കരിക്കാതെ തന്നെ, സ്വന്തം ആവശ്യങ്ങൾ നിറവേറ്റാൻ മറ്റുള്ളവരെ സഹായിക്കും.. @orta [എന്ന് കണ്ടെത്തി](https://artsy.github.io/blog/2016/07/03/handling-big-projects/) CocoaPods-നുള്ള പ്ലഗിനുകൾ പ്രോത്സാഹിപ്പിക്കുന്നത് "ഏറ്റവും രസകരമായ ചില ആശയങ്ങളിലേക്ക്" നയിച്ചു:
 
-> It's almost inevitable that once a project becomes big, maintainers have to become a lot more conservative about how they introduce new code. You become good at saying "no", but a lot of people have legitimate needs. So, instead you end up converting your tool into a platform.
+> ഒരു പ്രോജക്റ്റ് വലുതായിക്കഴിഞ്ഞാൽ, മെയിൻ്റനർമാർ പുതിയ കോഡ് എങ്ങനെ അവതരിപ്പിക്കുന്നു എന്നതിനെക്കുറിച്ച് കൂടുതൽ യാഥാസ്ഥിതികരാകേണ്ടത് മിക്കവാറും അനിവാര്യമാണ്. "ഇല്ല" എന്ന് പറയുന്നതിൽ നിങ്ങൾ മിടുക്കനാകുന്നു, എന്നാൽ ധാരാളം ആളുകൾക്ക് നിയമാനുസൃതമായ ആവശ്യങ്ങളുണ്ട്. അതിനാൽ, പകരം നിങ്ങളുടെ ഉപകരണം ഒരു പ്ലാറ്റ്‌ഫോമിലേക്ക് പരിവർത്തനം ചെയ്യുന്നു.
 
-## Bring in the robots
+## റോബോട്ടുകളെ കൊണ്ടുവരിക
 
-Just as there are tasks that other people can help you with, there are also tasks that no human should ever have to do. Robots are your friend. Use them to make your life as a maintainer easier.
+മറ്റുള്ളവർക്ക് നിങ്ങളെ സഹായിക്കാൻ കഴിയുന്ന ജോലികൾ ഉള്ളതുപോലെ, ഒരു മനുഷ്യനും ചെയ്യാൻ പാടില്ലാത്ത ജോലികളും ഉണ്ട്. റോബോട്ടുകൾ നിങ്ങളുടെ സുഹൃത്താണ്. ഒരു മെയിൻ്റനർ എന്ന നിലയിൽ നിങ്ങളുടെ ജീവിതം എളുപ്പമാക്കാൻ അവ ഉപയോഗിക്കുക.
 
-### Require tests and other checks to improve the quality of your code
+### നിങ്ങളുടെ കോഡിൻ്റെ ഗുണനിലവാരം മെച്ചപ്പെടുത്തുന്നതിന് പരിശോധനകളും മറ്റ് പരിശോധനകളും ആവശ്യമാണ്
 
-One of the most important ways you can automate your project is by adding tests.
+നിങ്ങളുടെ പ്രോജക്‌റ്റ് ഓട്ടോമേറ്റ് ചെയ്യാനുള്ള ഏറ്റവും പ്രധാനപ്പെട്ട മാർഗ്ഗം ടെസ്റ്റുകൾ ചേർക്കുകയാണ്.
 
-Tests help contributors feel confident that they won't break anything. They also make it easier for you to review and accept contributions quickly. The more responsive you are, the more engaged your community can be.
+തങ്ങൾ ഒന്നും തകർക്കില്ല എന്ന ആത്മവിശ്വാസം സംഭാവന ചെയ്യുന്നവരെ സഹായിക്കാൻ ടെസ്റ്റുകൾ സഹായിക്കുന്നു. സംഭാവനകൾ വേഗത്തിൽ അവലോകനം ചെയ്യാനും സ്വീകരിക്കാനും അവ നിങ്ങളെ എളുപ്പമാക്കുന്നു. നിങ്ങൾ എത്രത്തോളം പ്രതികരിക്കുന്നുവോ അത്രത്തോളം നിങ്ങളുടെ കമ്മ്യൂണിറ്റിക്ക് കൂടുതൽ ഇടപഴകാൻ കഴിയും.
 
-Set up automatic tests that will run on all incoming contributions, and ensure that your tests can easily be run locally by contributors. Require that all code contributions pass your tests before they can be submitted. You'll help set a minimum standard of quality for all submissions. [Required status checks](https://help.github.com/articles/about-required-status-checks/) on GitHub can help ensure no change gets merged without your tests passing.
-
-If you add tests, make sure to explain how they work in your CONTRIBUTING file.
+എല്ലാ ഇൻകമിംഗ് സംഭാവനകളിലും പ്രവർത്തിക്കുന്ന സ്വയമേവയുള്ള ടെസ്റ്റുകൾ സജ്ജീകരിക്കുക, കൂടാതെ നിങ്ങളുടെ ടെസ്റ്റുകൾ സംഭാവകർക്ക് എളുപ്പത്തിൽ പ്രാദേശികമായി പ്രവർത്തിപ്പിക്കാൻ കഴിയുമെന്ന് ഉറപ്പാക്കുക. എല്ലാ കോഡ് സംഭാവനകളും സമർപ്പിക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ ടെസ്റ്റുകളിൽ വിജയിക്കണമെന്ന് ആവശ്യപ്പെടുന്നു. എല്ലാ സമർപ്പിക്കലുകൾക്കും ഏറ്റവും കുറഞ്ഞ നിലവാരം സജ്ജമാക്കാൻ നിങ്ങൾ സഹായിക്കും. [ആവശ്യമായ സ്റ്റാറ്റസ് പരിശോധനകൾ](https://help.github.com/articles/about-required-status-checks/) നിങ്ങളുടെ ടെസ്റ്റുകൾ വിജയിക്കാതെ ഒരു മാറ്റവും ലയിക്കുന്നില്ലെന്ന് ഉറപ്പാക്കാൻ GitHub-ന് കഴിയും.
+നിങ്ങൾ ടെസ്റ്റുകൾ ചേർക്കുകയാണെങ്കിൽ, നിങ്ങളുടെ സംഭാവന ഫയലിൽ അവ എങ്ങനെ പ്രവർത്തിക്കുന്നുവെന്ന് വിശദീകരിക്കുന്നത് ഉറപ്പാക്കുക.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/edunham?s=180" class="pquote-avatar" alt="avatar">
-  I believe that tests are necessary for all code that people work on. If the code was fully and perfectly correct, it wouldn't need changes – we only write code when something is wrong, whether that's "It crashes" or "It lacks such-and-such a feature". And regardless of the changes you're making, tests are essential for catching any regressions you might accidentally introduce.
-  <p markdown="1" class="pquote-credit">
-— @edunham, ["Rust's Community Automation"](https://edunham.net/2016/09/27/rust_s_community_automation.html)
+ആളുകൾ പ്രവർത്തിക്കുന്ന എല്ലാ കോഡിനും പരിശോധനകൾ ആവശ്യമാണെന്ന് ഞാൻ വിശ്വസിക്കുന്നു. കോഡ് പൂർണ്ണമായും കൃത്യമായും ശരിയായിരുന്നെങ്കിൽ, അതിന് മാറ്റങ്ങൾ ആവശ്യമില്ല - എന്തെങ്കിലും തെറ്റ് സംഭവിക്കുമ്പോൾ മാത്രമേ ഞങ്ങൾ കോഡ് എഴുതുകയുള്ളൂ, അത് "ഇത് ക്രാഷുകൾ" അല്ലെങ്കിൽ "ഇതിന് അത്തരമൊരു സവിശേഷത ഇല്ല". നിങ്ങൾ വരുത്തുന്ന മാറ്റങ്ങൾ പരിഗണിക്കാതെ തന്നെ, നിങ്ങൾ ആകസ്മികമായി അവതരിപ്പിച്ചേക്കാവുന്ന ഏതെങ്കിലും റിഗ്രഷനുകൾ പിടിക്കാൻ ടെസ്റ്റുകൾ അത്യന്താപേക്ഷിതമാണ്.  <p markdown="1" class="pquote-credit">
+— @edunham, ["റസ്റ്റിൻ്റെ കമ്മ്യൂണിറ്റി ഓട്ടോമേഷൻ"](https://edunham.net/2016/09/27/rust_s_community_automation.html)
   </p>
 </aside>
 
-### Use tools to automate basic maintenance tasks
+### അടിസ്ഥാന അറ്റകുറ്റപ്പണികൾ ഓട്ടോമേറ്റ് ചെയ്യാൻ ഉപകരണങ്ങൾ ഉപയോഗിക്കുക
 
-The good news about maintaining a popular project is that other maintainers have probably faced similar issues and built a solution for them.
+ഒരു ജനപ്രിയ പ്രോജക്റ്റ് പരിപാലിക്കുന്നതിനെക്കുറിച്ചുള്ള നല്ല വാർത്ത, മറ്റ് മെയിൻ്റനർമാർ സമാനമായ പ്രശ്‌നങ്ങൾ അഭിമുഖീകരിക്കുകയും അവയ്‌ക്ക് ഒരു പരിഹാരം ഉണ്ടാക്കുകയും ചെയ്‌തിട്ടുണ്ട് എന്നതാണ്.
 
 There are a [variety of tools available](https://github.com/showcases/tools-for-open-source) to help automate some aspects of maintenance work. A few examples:
 
